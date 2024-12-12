@@ -3,9 +3,12 @@
 
 int echo_main(int argc, char** argv)
 {
-  printf("echo argc = %d", argc);
+  //printf("echo argc = %d\n", argc);
   if (argc > 1)
-    printf("echo argv[1] = %s\n", argv[1]);
+  {
+	  //printf("echo argv[1] = %s\n", argv[1]);
+	  printf("%s\n", argv[1]);
+  }
   return 0;
 }
 
